@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Data Explorer</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .cover { text-align: center; padding: 50px; background: url('https://your-image-url.jpg') no-repeat center center; background-size: cover; color: white; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+        .cover h1 { font-size: 3em; margin: 0.5em 0; }
+        .cover p { font-size: 1.5em; margin: 0.5em 0; }
+        .navbar { display: flex; justify-content: center; padding: 20px; background-color: rgba(0, 0, 0, 0.7); position: fixed; width: 100%; top: 0; }
+        .navbar a { color: white; margin: 0 15px; text-decoration: none; font-size: 1.2em; }
+        .section { padding: 50px 20px; text-align: center; }
+        .features { display: flex; justify-content: space-around; }
+        .feature { width: 30%; }
+        .feature img { width: 100%; }
+        .about { text-align: left; max-width: 800px; margin: 0 auto; }
+        .profiles { display: flex; justify-content: space-around; margin: 20px 0; }
+        .profiles a { margin: 0 10px; text-decoration: none; color: #0073b1; }
+    </style>
+</head>
+<body>
+
+<!-- Intro Section -->
+<div class="cover">
+    <div class="navbar">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+    </div>
+    <h1>Interactive Data Explorer</h1>
+    <p>Visualize and analyze your data interactively.</p>
+    <button onclick="location.href='https://sarafedlu.github.io/Interactive_data_explorer'">View Project</button>
+</div>
+
+<!-- Feature Section -->
+<div id="features" class="section">
+    <h2>Key Features</h2>
+    <div class="features">
+        <div class="feature">
+            <img src="#" alt="Data Visualization">
+            <h3>Data Visualization</h3>
+            <p>Dynamic charts and graphs to represent your data visually.</p>
+        </div>
+        <div class="feature">
+            <img src="#" alt="Data Filtering">
+            <h3>Data Filtering</h3>
+            <p>Advanced filtering options for in-depth data analysis.</p>
+        </div>
+        <div class="feature">
+            <img src="#" alt="Export Options">
+            <h3>Export Options</h3>
+            <p>Export data and visualizations in various formats.</p>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div id="about" class="section">
+    <h2>About This Project</h2>
+    <p>Inspired by the need to make data analysis more accessible and engaging, especially for those without a technical background. This project is a Portfolio Project for <a href="https://www.holbertonschool.com">Holberton School</a>.</p>
+    <h3>About Me</h3>
+    <div class="profiles">
+        <div>
+            <p>Connect with me:</p>
+            <a href="https://www.linkedin.com/in/sara-fedlu/">LinkedIn</a>
+            <a href="https://github.com/SaraFedlu">GitHub</a>
+        </div>
+    </div>
+    <h3>Project Repository</h3>
+    <a href="https://github.com/SaraFedlu/Interactive_data_explorer">GitHub Repository</a>
+</div>
+
+</body>
+</html>
